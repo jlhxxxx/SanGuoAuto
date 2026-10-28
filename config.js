@@ -1,7 +1,7 @@
 var config = {
   appName: 'SanGuoAuto',
   defaultTaskId: 'taofa',
-  defaultLoopCount: 200,
+  defaultLoopCount: 10,
   loopIntervalMs: 1500,
   imageThreshold: 0.82,
   imageRetryIntervalMs: 500,

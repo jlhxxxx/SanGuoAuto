@@ -48,7 +48,7 @@ module.exports = {
     if (!taskUtils.findAndClick(ctx, {
       desc: '发起集结按钮',
       image: 'jijie_start_button.png',
-      region: regions.huatuoJijieStartButton,
+      region: regions.suipianJijieStartButton,
       waitAfter: 900
     })) {
       return 'failed'
@@ -74,7 +74,7 @@ function selectHuatuoTarget (ctx) {
   if (!taskUtils.findAndClick(ctx, {
     desc: '华佗',
     image: 'huatuo.png',
-    region: regions.huatuoTarget,
+    region: regions.suipianTarget,
     waitAfter: 900
   })) {
     return false

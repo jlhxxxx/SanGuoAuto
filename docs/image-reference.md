@@ -15,17 +15,19 @@
 
 | 模板 | 参考截图 | 旧机位置 | 新机位置 | 当前 region | 备注 |
 | --- | --- | --- | --- | --- | --- |
-| `search_icon.png` | `home.jpg` / `home-1.png` | 左侧菜单，约 `x=40-120` | 左侧菜单整体下移 | `regions.searchIcon` | 底部锚定 |
+| `search_icon.png` | `home.jpg` / `home-1.png` | 左侧菜单，约 `x=40-120` | 左侧菜单整体下移 | `regions.searchIcon` | 底部锚定，1.0.1 重新截取 |
 | `package.png` | `home.jpg` / `home-1.png` | 底部行囊，约 `x=300-680` | 底部行囊整体下移 | `regions.packageButton` | 底部锚定 |
 | `search_button.png` | `search_button.jpg` / `search_button-1.png` | 底部搜索按钮区域 | 底部搜索按钮整体下移 | `regions.searchButton` | 底部锚定 |
-| `taofa_attack_button.png` | `attack_button.jpg` / `attack_button-1.png` | 中部偏上攻击按钮区域 | 随地图内容下移 | `regions.attackButton` | 底部锚定，讨伐复用 |
-| `jijie_attack_button.png` | `attack_button.jpg` / `attack_button-1.png`, `huatuo.jpg` / `huatuo-1.png` | 中部偏上攻击按钮区域 | 随地图内容下移 | `regions.attackButton` | 集结、华佗复用 |
+| `taofa_attack_button.png` | `attack_button.jpg` / `attack_button-1.png` | 中部偏上攻击按钮区域 | 随地图内容下移 | `regions.attackButton` | 底部锚定，讨伐专用，1.0.1 重新截取 |
+| `jijie_attack_button.png` | `attack_button.jpg` / `attack_button-1.png`, `huatuo.jpg` / `huatuo-1.png` | 中部偏上攻击按钮区域 | 随地图内容下移 | `regions.attackButton` | 集结、华佗、孙策复用 |
 | `jijie_start_button.png` | `jijie_start_button.jpg` / `jijie_start_button-1.png` | 普通集结发起按钮 | 普通集结发起按钮整体下移 | `regions.normalJijieStartButton` | 同一模板在不同流程位置不同 |
-| `jijie_start_button.png` | `huatuo_jijie_start_button.jpg` / `huatuo_jijie_start_button-1.png` | 华佗流程发起按钮 | 华佗流程发起按钮整体下移 | `regions.huatuoJijieStartButton` | 同图不同 region |
+| `jijie_start_button.png` | `huatuo_jijie_start_button.jpg` / `huatuo_jijie_start_button-1.png` | 华佗流程发起按钮 | 华佗流程发起按钮整体下移 | `regions.suipianJijieStartButton` | 同图不同 region，华佗、孙策共用 |
 | `others.png` | `others.jpg` / `others-1.png` | 背包底部“其他”标签 | 标签整体贴底下移 | `regions.bagOtherTab` | 底部锚定 |
 | `hulu.png` | `hulu.jpg` / `hulu-1.png` | 背包物品网格内，位置可变 | 背包物品网格内，位置可变 | `regions.bagItems` | 大范围列表区域 |
+| `hufu.png` | `hufu.jpg` / `hufu-1.png` | 背包物品网格内，位置可变 | 背包物品网格内，位置可变 | `regions.bagItems` | 大范围列表区域，与 `hulu.png` 同区域 |
 | `use.png` | `use.jpg` / `use-1.png` | 蓝色按钮约 `x=359-720, y=1397-1489` | 蓝色按钮约 `x=359-720, y=1459-1549` | `regions.useButton` | 中心锚定，旧机中心约 `y=1445` |
-| `huatuo.png` | `huatuo.jpg` / `huatuo-1.png` | 地图中部华佗目标 | 地图目标随中心下移 | `regions.huatuoTarget` | 中心锚定 |
+| `huatuo.png` | `huatuo.jpg` / `huatuo-1.png` | 地图中部华佗目标 | 地图目标随中心下移 | `regions.suipianTarget` | 中心锚定，华佗、孙策共用 |
+| `sunce.png` | `sunce.jpg` / `sunce-1.png` | 地图中部孙策目标 | 地图目标随中心下移 | `regions.suipianTarget` | 中心锚定，与 `huatuo.png` 同区域 |
 | `camp_1.png` | `4.jpg` / `4-1.png` | 出征页底部阵营 1 | 出征页底部整体下移 | `regions.campOne` | 底部锚定 |
 | `march_button.png` | `4.jpg` / `4-1.png` | 出征按钮 | 出征按钮贴底下移 | `regions.marchButton` | 底部锚定 |
 | `refill_all_button.png` | `refill_all_button.jpg` / `refill_all_button-1.png` | 底部弹窗“一键补齐所有” | 底部弹窗整体下移 | `regions.refillAllButton` | 底部锚定 |

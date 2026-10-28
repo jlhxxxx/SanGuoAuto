@@ -128,11 +128,14 @@ var list = [
   taofa,
   jijie,
   huatuo,
+  sunce,
   daily
 ]
 ```
 
 重新运行 `main.js` 后，浮窗任务菜单里会出现新任务。
+
+如果新任务和目标已有任务走同一套流程、只是目标图标不同，可以保留同一张通用模板，用一张新模板图配合已有的 region（现例：`huatuo.png` 与 `sunce.png` 共用 `regions.suipianTarget`，`tasks/huatuo.js` 与 `tasks/sunce.js` 共用 `regions.suipianJijieStartButton`）。
 
 ## findAndClick 常用参数
 

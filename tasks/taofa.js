@@ -32,6 +32,6 @@ module.exports = {
       return 'failed'
     }
 
-    return taskUtils.marchWithRefill(ctx, 45000) ? 'success' : 'failed'
+    return taskUtils.marchWithRefill(ctx, 40000) ? 'success' : 'failed'
   }
 }

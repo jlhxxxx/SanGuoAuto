@@ -1,11 +1,13 @@
 var taofa = require('./taofa.js')
 var jijie = require('./jijie.js')
 var huatuo = require('./huatuo.js')
+var sunce = require('./sunce.js')
 
 var list = [
   taofa,
   jijie,
-  huatuo
+  huatuo,
+  sunce
 ]
 
 module.exports = {
