@@ -15,8 +15,8 @@
 
 | 模板 | 参考截图 | 旧机位置 | 新机位置 | 当前 region | 备注 |
 | --- | --- | --- | --- | --- | --- |
-| `search_icon.png` | `home.jpg` / `home-1.png` | 左侧菜单，约 `x=40-120` | 左侧菜单整体下移 | `regions.searchIcon` | 底部锚定，1.0.1 重新截取 |
-| `package.png` | `home.jpg` / `home-1.png` | 底部行囊，约 `x=300-680` | 底部行囊整体下移 | `regions.packageButton` | 底部锚定 |
+| `search_icon.png` | `home.jpg` / `home-1.png` | 左侧菜单，约 `x=40-120` | 左侧菜单整体下移 | `regions.searchIcon` | 底部锚定，1.0.2 因 UI 更新重新截取，旧图保留为 `search_icon_old.png` |
+| `package.png` | `home.jpg` / `home-1.png` | 底部行囊，约 `x=300-680` | 底部行囊整体下移 | `regions.packageButton` | 底部锚定，1.0.2 因 UI 更新重新截取，旧图保留为 `package_old.png` |
 | `search_button.png` | `search_button.jpg` / `search_button-1.png` | 底部搜索按钮区域 | 底部搜索按钮整体下移 | `regions.searchButton` | 底部锚定 |
 | `taofa_attack_button.png` | `attack_button.jpg` / `attack_button-1.png` | 中部偏上攻击按钮区域 | 随地图内容下移 | `regions.attackButton` | 底部锚定，讨伐专用，1.0.1 重新截取 |
 | `jijie_attack_button.png` | `attack_button.jpg` / `attack_button-1.png`, `huatuo.jpg` / `huatuo-1.png` | 中部偏上攻击按钮区域 | 随地图内容下移 | `regions.attackButton` | 集结、华佗、孙策复用 |
@@ -43,3 +43,5 @@
 3. 新机 `-1` 截图里是否只是整体下移。
 4. 采用的 region 常量。
 5. 是否存在“同一模板、不同位置”的情况。
+
+模板因游戏 UI 更新重新截取时，旧图保留为 `原名_old.png`，仅作对照备份，脚本不加载。

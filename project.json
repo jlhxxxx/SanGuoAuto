@@ -5,7 +5,7 @@
     "build",
     "logs"
   ],
-  "versionName": "1.0.1",
+  "versionName": "1.0.2",
   "packageName": "com.dqtwin.sanguoauto",
-  "versionCode": 2
+  "versionCode": 3
 }

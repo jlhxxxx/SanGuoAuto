@@ -2,7 +2,7 @@
 
 SanGuoAuto 是一个运行在困鱼 / AutoJS 上的《三国：冰河时代》自动化脚本项目。
 
-当前 1.0.1 版本支持四个任务：
+当前版本：1.0.2（最后更新：2026-11-25），支持四个任务：
 
 - 讨伐
 - 集结
@@ -95,6 +95,8 @@ debugRegionOverlay: {
 - `hufu.png`：背包“其他”页里的虎符
 
 任务专属模板图继续使用任务前缀，例如 `taofa_attack_button.png`、`jijie_attack_button.png`、`huatuo.png`、`sunce.png`。
+
+因游戏 UI 更新重新截取的模板，旧图会保留为 `原名_old.png`（如 `package_old.png`、`search_icon_old.png`），仅作对照备份，脚本不会加载。
 
 模板定位参考见 [docs/image-reference.md](docs/image-reference.md)。
 
